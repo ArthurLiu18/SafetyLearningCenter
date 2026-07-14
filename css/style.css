@@ -57,3 +57,14 @@ h2{
 .pdf-button:hover{
     background:#003f6f;
 }
+
+.home-button{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 20px;
+    background:#28a745;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+}
