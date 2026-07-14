@@ -36,21 +36,13 @@ h1 {
 
 
 .pdf-button{
-
-    display:inline-block;
-
-    background:#005a9c;
-
-    color:white;
-
-    padding:12px 20px;
-
-    border-radius:8px;
-
-    text-decoration:none;
-
-    font-weight:bold;
-
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background: #005a9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
 }
 
 .pdf-button:hover{
