@@ -33,3 +33,28 @@ h1 {
     background: #005a9c;
     color: white;
 }
+
+
+.pdf-button{
+
+    display:inline-block;
+
+    background:#005a9c;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.pdf-button:hover{
+
+    background:#003f6f;
+
+}
