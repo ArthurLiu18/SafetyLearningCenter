@@ -1,56 +1,51 @@
+body {
 
-<!DOCTYPE html>
+    font-family: Arial, sans-serif;
 
-<html lang="zh-CN">
+    max-width: 1000px;
 
-<head>
+    margin: auto;
 
-<meta charset="UTF-8">
+    padding: 20px;
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    background: #f5f5f5;
 
-<title>Bunge安全学习中心</title>
+}
 
-css/style.css
+.cards {
 
-</head>
+    display: grid;
 
-<body>
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 
-<h1>Bunge 安全学习中心</h1>
+    gap: 15px;
 
-<p>请选择需要学习的主题</p>
+}
 
-<div class="cards">
+.card {
 
-<a class="card" href="pages/loto.html">
-LOTO
+    background: white;
 
+    padding: 25px;
 
-<a class="card.html
+    text-align:center;
 
-pages/lifting.html
-吊装作业
-</a>
+    border-radius:10px;
 
-/mobile.html">
-移动设备
-</a>
+    text-decoration:none;
 
-/hotwork.html">
-动火作业
-</a>
+    color:#005a9c;
 
-<a class=".html
-高压软管
-</a>
+    font-weight:bold;
 
-pages/general.html
-通用安全
-</a>
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
 
-</div>
+}
 
-</body>
+.card:hover {
 
-</html>
+    background:#005a9c;
+
+    color:white;
+
+}
