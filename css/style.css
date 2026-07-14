@@ -44,18 +44,18 @@ h2{
 
 .pdf-button{
     display: inline-block;
-    min-width: 220px;
-    padding: 12px 18px;
     margin: 8px;
-    background: #005a9c;
-    color: white;
+    padding: 12px 20px;
+    background: #d9efff;
+    color: #005a9c;
     text-decoration: none;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    font-weight: bold;
+    border: 1px solid #7db9e8;
 }
 
 .pdf-button:hover{
-    background:#003f6f;
+    background:#1f7cc7;
 }
 
 .home-button{
